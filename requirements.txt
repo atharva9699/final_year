@@ -1,0 +1,10 @@
+streamlit
+pandas
+requests
+python-dotenv
+openpyxl
+tabulate
+SpeechRecognition
+gTTS
+streamlit-audio-recorder
+# Note: pyttsx3 removed because server-side audio doesn't play in browser; gTTS is used instead
