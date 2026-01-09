@@ -100,7 +100,7 @@ body {
 }
 .bot-msg {
     text-align: left;
-    background-color: #e7ebff;
+    background-color: #111112;
     padding: 0.7rem;
     border-radius: 10px;
     margin-bottom: 0.5rem;
@@ -229,3 +229,4 @@ for i, msg in enumerate(st.session_state.chat_history):
 
 st.markdown("---")
 #st.markdown("<center>Developed with ❤️ by I2IT Pune</center>", unsafe_allow_html=True)
+
