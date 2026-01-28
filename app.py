@@ -12,8 +12,9 @@ st.set_page_config(page_title="I2IT College Chatbot", page_icon="🎓", layout="
 # =========================================================
 # ENV SETUP
 # =========================================================
-load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# load_dotenv()
+# GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = "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"
 
 # =========================================================
 # SAMPLE LOCAL DATA
@@ -229,4 +230,5 @@ for i, msg in enumerate(st.session_state.chat_history):
 
 st.markdown("---")
 #st.markdown("<center>Developed with ❤️ by I2IT Pune</center>", unsafe_allow_html=True)
+
 
