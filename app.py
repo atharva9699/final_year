@@ -56,12 +56,12 @@ qa_data = pd.DataFrame([
     {"query": "Are there any student clubs?", "intent": "ask_activity", "response": "Yes, ACM Student Chapter, IEEE Student Branch, and more."},
     {"query": "What are library borrowing limits?", "intent": "ask_rules", "response": "2 books per borrower for 7 days; renewal once for 7 days."},
     {"query": "What resources are available in the library?", "intent": "ask_info", "response": "10,000+ books, journals, CDs/DVDs, databases including IEEE and J-Gate."},
-    {"query": "What are the cultural activities?", "intent": "ask_events", "response": "Annual fest in February, student-organized events."},
+    {"query": "What are the cultural activities?", "intent": "ask_events", "response": "Annual fest in January, student-organized events like Dhruva & Askara and multiple tech events are conducted."},
     {"query": "Where can I find seminar details?", "intent": "ask_events", "response": "Notice board or online portal with locations like Seminar Hall 1 in PPCRC."},
     {"query": "What is the code of conduct?", "intent": "ask_rules", "response": "Strict rules on discipline, privacy, and security enforced campus-wide."},
     {"query": "Where is the medical facility?", "intent": "ask_location", "response": "Health & Wellness Block near the main entrance."},
     {"query": "How do I get a bonafide certificate?", "intent": "ask_process", "response": "Applied at student services desk with student ID."},
-    {"query": "Where is the canteen located?", "intent": "ask_location", "response": "Cafeteria Block adjacent to the Academic Block."},
+    {"query": "Where is the canteen located?", "intent": "ask_location", "response": "Cafeteria Block is adjacent to the Academic Block , below the library."},
     {"query": "Who is the hostel warden?", "intent": "ask_contact", "response": "Ramesh Joshi."},
     {"query": "How can I register for hostel accommodation?", "intent": "ask_process", "response": "Online via student portal or hostel office."},
     {"query": "What are the facility timings for computer labs?", "intent": "ask_time", "response": "Academic Block, 2nd floor, Room A105; timings as per schedule."},
@@ -230,5 +230,6 @@ for i, msg in enumerate(st.session_state.chat_history):
 
 st.markdown("---")
 #st.markdown("<center>Developed with ❤️ by I2IT Pune</center>", unsafe_allow_html=True)
+
 
 
