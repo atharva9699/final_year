@@ -118,7 +118,18 @@ body {
 # =========================================================
 # SIDEBAR
 # =========================================================
-st.sidebar.image("logo.jpeg", width=120)
+# st.sidebar.image("logo.jpeg", width=120)
+st.sidebar.image("logo.png", width=120)
+st.markdown(
+    """
+    <style>
+    .css-1d391kg {
+        background-color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.sidebar.markdown("""
 ### College Address
 I²IT Campus, Hinjewadi Phase 1 , Pune ,  Maharashtra, India - 411057
