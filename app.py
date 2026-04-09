@@ -119,7 +119,7 @@ body {
 # SIDEBAR
 # =========================================================
 # st.sidebar.image("logo.jpeg", width=120)
-st.sidebar.image("logo.png", width=120)
+st.sidebar.image("logo.jpeg", width=120)
 st.markdown(
     """
     <style>
