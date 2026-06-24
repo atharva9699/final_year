@@ -14,7 +14,7 @@ st.set_page_config(page_title="I2IT College Chatbot", page_icon="🎓", layout="
 # =========================================================
 # load_dotenv()
 # GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # =========================================================
 # SAMPLE LOCAL DATA
